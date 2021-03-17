@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #5fcf80;
+  color: #facb09;
 }
 
 #header .logo img {
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .get-started-btn {
   margin-left: 22px;
-  background: #5fcf80;
+  background: #facb09;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #3ac162;
+  background: #facb09;
   color: #fff;
 }
 
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #5fcf80;
+  color: #facb09;
 }
 
 .navbar .dropdown ul {
@@ -445,8 +445,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #5fcf80;
-  border: 2px solid #5fcf80;
+  background: #facb09;
+  border: 2px solid #fff;
 }
 
 @media (min-width: 1024px) {
@@ -560,11 +560,11 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5fcf80;
+  color: #facb09;
 }
 
 .about .content .learn-more-btn {
-  background: #5fcf80;
+  background: #facb09;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px 9px 25px;
@@ -575,7 +575,7 @@ section {
 }
 
 .about .content .learn-more-btn:hover {
-  background: #3ac162;
+  background: #facb09;
   color: #fff;
 }
 
@@ -596,7 +596,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #5fcf80;
+  color: #facb09;
   font-weight: 700;
 }
 
@@ -614,9 +614,9 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #5fcf80;
+  background: #facb09;
   border-radius: 4px;
-  color: #fff;
+  color: #00000;
 }
 
 .why-us .content h3 {
@@ -643,13 +643,13 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #5fcf80;
+  color: #facb09;
   background: #fff;
 }
 
 .why-us .icon-boxes .icon-box {
   text-align: center;
-  background: #fff;
+  background: #00000;
   padding: 40px 30px;
   width: 100%;
   border: 1px solid #eef0ef;
@@ -658,7 +658,7 @@ section {
 .why-us .icon-boxes .icon-box i {
   font-size: 32px;
   padding: 18px;
-  color: #5fcf80;
+  color: #facb09;
   margin-bottom: 30px;
   background: #ecf9f0;
   border-radius: 50px;
@@ -710,11 +710,11 @@ section {
 }
 
 .features .icon-box:hover {
-  border-color: #5fcf80;
+  border-color: #facb09;
 }
 
 .features .icon-box:hover h3 a {
-  color: #5fcf80;
+  color: #facb09;
 }
 
 /*--------------------------------------------------------------
@@ -740,7 +740,7 @@ section {
 }
 
 .courses .course-content h3 a:hover {
-  color: #5fcf80;
+  color: #facb09;
 }
 
 .courses .course-content p {
@@ -750,7 +750,7 @@ section {
 
 .courses .course-content h4 {
   font-size: 14px;
-  background: #5fcf80;
+  background: #facb09;
   padding: 7px 14px;
   color: #fff;
   margin: 0;
@@ -1436,7 +1436,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5fcf80;
+  color: #facb09;
   font-size: 18px;
   line-height: 1;
 }
@@ -1460,7 +1460,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #5fcf80;
+  color: #facb09;
 }
 
 #footer .footer-newsletter {
@@ -1500,7 +1500,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #5fcf80;
+  background: #facb09;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1508,7 +1508,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #3ac162;
+  background: #facb09;
 }
 
 #footer .credits {
@@ -1517,19 +1517,19 @@ section {
 }
 
 #footer .credits a {
-  color: #3ac162;
+  color: #facb09;
   transition: 0.3s;
 }
 
 #footer .credits a:hover {
-  color: #5fcf80;
+  color: #facb09;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
-  color: #fff;
+  background: #facb09;
+  color: #37423b;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1541,7 +1541,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3ac162;
+  background: #facb09;
   color: #fff;
   text-decoration: none;
 }
