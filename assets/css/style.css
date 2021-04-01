@@ -109,7 +109,8 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-.mu-post-btn:hover, .mu-post-btn:focus {
+.mu-post-btn:hover, .mu-post-btn
+:focus {
   color: #fff;
 }
 
@@ -185,7 +186,7 @@ img {
   width: 100%;
 }
 #mu-menu .navbar-header .navbar-brand {
-  color: #333;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
   font-weight: bold;
@@ -544,7 +545,7 @@ img {
   width: 100%;
 }
 .mu-title h2 {
-  color: #000;
+  color: #ffd700;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
