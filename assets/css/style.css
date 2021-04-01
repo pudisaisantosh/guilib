@@ -421,6 +421,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  background-image: url("assets/img/bksback.jpg")  
 }
 #mu-service .mu-service-area .mu-service-single {
   background-color: #01bafd;
