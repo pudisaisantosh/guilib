@@ -69,7 +69,7 @@
                     <ul class="mu-top-social-nav">
                       <li><a href="#"><span class="fa fa-facebook"></span></a></li>
                       <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                      <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                      <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
                       <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
                       <li><a href="#"><span class="fa fa-youtube"></span></a></li>
                     </ul>
@@ -134,23 +134,207 @@
    </div>
  </section>
 
-<section id="mu-gallery" style="background-image: url(assets/img/ctrbg.jpg)">
-   <div class="container">
+<section id="mu-gallery" style="background-image: url(assets/img/slider/libbol.png)">
+    <div class="container prices">
+   
+    <div class="row">
+        <div class="col-sm-12 col-md-12 ">
+            <div class="option">
+                <div class="option-title">
+                    <h4 align="justify">Syllabus includes all three patterns currently vogue in school education. It is a mix of ICSE, CBSE and AP State board syllabus. Hence it would be more in content.
+                Admission in any level is on the basis of a written test , mostly in
+English and Maths. This will access the real standing of the student
+and will be used for planning her actual requirements vis-à-vis the
+marks scored. The test paper is arduously prepared covering
+questions on basic concepts. It will have both objective and
+subjective questions and the aspiring student is expected to score
+minimum 60% marks in the test otherwise next lower level test
+paper will be given. Admissions are open through out the year.
+                We educate children. Education covers every bit of learning.
+Most of us limit it to bookish knowledge which is actually a
+small part of it. Besides knowledge obtained through
+teaching learning process, any activity which a child does and
+which results in her learning , enhancing existing skills or
+improving her approach to a given situation is education.</h4>
+                  <!--  <span>Admission test Mistakes</span>-->
+                </div>
+                <!--<div class="option-price">
+                    <span class="price">$0</span>
+                    <span class="period">per month</span>
+                </div>-->
+              <!-- <div class="option-list">
+                    <ul class="item-list">
+                        <li><strong>1GB</strong> Disk Space</li>
+                        <li><strong>0</strong> Email Addresses</li>
+                        <li><strong>2</strong> Domains </li>
+                        <li><strong>4</strong> Subdomains</li>
+                        <li><div class="qr" id="order1"></div></li>
+                    </ul>
+                    <button type="button" class="btn btn-success big"><i class="fa fa-hand-o-right hided-icon big"></i> Sign Up</button>
+                </div>-->
+            </div>
+        </div>
+        
+        
+        
+        
+    </div><!-- /.row -->
+</div><!-- /.container -->
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#order1").shieldQRcode({
+            mode: "byte",
+            size: 150,
+            value: "https://somesite/order?plan=1"
+        });
+        $("#order2").shieldQRcode({
+            mode: "byte",
+            size: 150,
+            value: "https://somesite/order?plan=2"
+        });
+        $("#order3").shieldQRcode({
+            mode: "byte",
+            size: 150,
+            value: "https://somesite/order?plan=3"
+        });
+    });
+</script>
+
+<!-- you need to include the shieldui css and js assets in order for the grids to work -->
+<!--<link rel="stylesheet" type="text/css" href="http://www.prepbootstrap.com/Content/shieldui-lite/dist/css/light/all.min.css" />
+<script type="text/javascript" src="http://www.prepbootstrap.com/Content/shieldui-lite/dist/js/shieldui-lite-all.min.js"></script>-->
+
+<style type="text/css">
+    .qr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .prices {
+        padding-bottom: 40px;
+        color: #fff;
+          background-color: rgb(223, 230, 247,0.8);
+
+        
+    }
+
+    .pricing-tables-jumbotron {
+        text-align: center;
+        background: none;
+    }
+
+    .big {
+        font-size: 16px;
+    }
+    
+    .option {
+        background: #f9f9f9;
+        box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+        border-radius: 4px 4px 0 0;
+        position: relative;
+        margin: 20px 0;
+        text-align: center;
+        color: #333;
+    }
+
+        .option:hover .hided-icon {
+            color: #fff;
+            padding: 0 10px;
+        }
+
+        .option > .option-title {
+            padding: 20px;
+        }
+
+            .option > .option-title > h4 {
+                
+                font-family: "Roboto", sans-serif;
+                font-size: 16px;
+               
+                margin: 0;
+            }
+
+            .option > .option-title > span {
+                font-style: italic;
+                font-size: 16px;
+            }
+
+        .option > .option-price {
+            background: #fff;
+            padding: 0 0 10px;
+            color: #0FB112;
+        }
+
+            .option > .option-price > .price {
+                display: block;
+                font-size: 72px;
+                font-style: italic;
+            }
+
+            .option > .option-price > .period {
+                font-size: 14px;
+            }
+
+        .option .option-list {
+            padding: 0;
+        }
+
+        .option .item-list {
+            list-style: none;
+            padding: 0;
+        }
+
+            .option .item-list li:nth-child(even) {
+                background: #fdfdfd;
+            }
+
+            .option .item-list > li {
+                padding: 10px 5px;
+                font-size: 16px;
+            }
+
+        .option .btn {
+            width: 100%;
+            padding: 18px 8px;
+            border-radius: 0;
+            border: none;
+            text-transform: uppercase;
+        }
+
+        .option .btn-success {
+            color: #fff;
+            background: #0FB112;
+        }
+
+            .option .btn-success:hover {
+                background: #1d7019;
+            }
+
+        .option .hided-icon {
+            color: #0FB112;
+            margin-left: -14px;
+            -webkit-transition: all 0.7s ease-in-out;
+            -moz-transition: all 0.7s ease-in-out;
+            -o-transition: all 0.7s ease-in-out;
+            transition: all 0.7s ease-in-out;
+        }
+</style>
+   <!--<div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12">
           <div class="mu-service-area">
-            <!-- Start single service -->
+            
             <div class="mu-service-single">
               <span></span>
               <p align="justify" style="color:white;"><b>Syllabus</b> includes all three patterns currently vogue in school education. It is a mix of ICSE, CBSE and AP State board syllabus. Hence it would be more in content.</p>
             </div>
-            <!-- Start single service -->
-            <!-- Start single service -->
+          
             
               
               <div class="mu-service-single">
               <span></span>
-                <p align="justify" style="color:white;"><b>Admission in any level</b> is on the basis of a written test , mostly in
+                  <p align="justify" style="color:white;"><b>Admission in any level</b> is on the basis of a written test , mostly in
 English and Maths. This will access the real standing of the student
 and will be used for planning her actual requirements vis-à-vis the
 marks scored. The test paper is arduously prepared covering
@@ -161,6 +345,7 @@ paper will be given. Admissions are open through out the year.</p>
             </div>
               <div class="mu-service-single">
               <span></span>
+                  
                 <p align="justify" style="color:white;"><b>We educate children.</b> Education covers every bit of learning.
 Most of us limit it to bookish knowledge which is actually a
 small part of it. Besides knowledge obtained through
@@ -171,10 +356,10 @@ improving her approach to a given situation is education.</p>
               
               
               
-              
+            </div>
         </div>
       </div>
-    </div>
+    </div>-->
  </section>
  <!-- End gallery  -->
  <!-- End breadcrumb --> 
@@ -195,7 +380,7 @@ improving her approach to a given situation is education.</p>
               <div class="col-lg-4 col-md-4 col-xs-12">
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
-                    <a href="#"><img src="assets/img/courses/1f5.jpg" alt="img"></a>
+                    <a href="#"><img src="assets/img/courses/1.jpg" alt="img"></a>
                     <figcaption class="mu-latest-course-imgcaption">
                       <a href="#">Coarse Plan 1</a>
                       <span><i class="fa fa-clock-o"></i>Rs.12,000/-</span>
@@ -203,29 +388,29 @@ improving her approach to a given situation is education.</p>
                   </figure>
                   <div class="mu-latest-course-single-content">
                     <h4><a href="#">1 - 5th Class</a></h4>
-                    <p>Subjects : Mathematics & English Grammar | 4 days in a Week(Mon, Tue, Wed, Thu) | Fees: Rs.12,000/- (Single Payment for 1 year; Including 1,000/- Stationary Charges) | Vacations for one month in May every year | Class Timings 6:00pm - 8:00pm</p>
+                    <p align="justify">Subjects : Mathematics & English Grammar | 4 days in a Week(Mon, Tue, Wed, Thu) | Fees: Rs.12,000/- (Single Payment for 1 year; Including 1,000/- Stationary Charges)</p>
                     </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-xs-12">
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
-                    <a href="#"><img src="assets/img/courses/1f5.jpg" alt="img"></a>
+                    <a href="#"><img src="assets/img/courses/2.jpg" alt="img"></a>
                     <figcaption class="mu-latest-course-imgcaption">
                       <a href="#">Coarse Plan 2</a>
                       <span><i class="fa fa-clock-o"></i>Rs.12,000/-</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
-                    <h4><a href="#">6 - 10th Class</a></h4>
-                    <p>Subjects : Mathematics | 4 days in a Week(Mon, Tue, Wed, Thu) | Fees: Rs.12,000/- (Single Payment for 1 year; Including 1,000/- Stationary Charges) | Vacations for one month in May every year | Class Timings 6:00pm - 8:00pm</p>
+                    <h4><a href="#">6 - 9th Class</a></h4>
+                    <p align="justify">Subjects : Mathematics | 4 days in a Week(Mon, Tue, Wed, Thu) | Fees: Rs.12,000/- (Single Payment for 1 year; Including 1,000/- Stationary Charges) </p>
                    </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-xs-12">
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
-                    <a href="#"><img src="assets/img/courses/1f5.jpg" alt="img"></a>
+                    <a href="#"><img src="assets/img/courses/3.jpg" alt="img"></a>
                     <figcaption class="mu-latest-course-imgcaption">
                       <a href="#">Coarse Plan 3</a>
                       <span><i class="fa fa-clock-o"></i>Rs.4,000/-</span>
@@ -233,44 +418,44 @@ improving her approach to a given situation is education.</p>
                   </figure>
                   <div class="mu-latest-course-single-content">
                     <h4><a href="#">10th Class</a></h4>
-                    <p>Subjects : Mathematics | 4 days in a Week(Mon, Tue, Wed, Thu) | Coarse Duration : 4 Months | Fees: Rs.4,500/- (Single Payment; Including 500/- Stationary Charges) | Class Timings 6:00pm - 8:00pm</p>
+                    <p align="justify">Subjects : Mathematics | 4 days in a Week(Mon, Tue, Wed, Thu) | Coarse Duration : 3 Months | Fees: Rs.4,500/- (Single Payment; Including 500/- Stationary Charges)</p>
                     </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-xs-12">
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
-                    <a href="#"><img src="assets/img/courses/1f5.jpg" alt="img"></a>
+                    <a href="#"><img src="assets/img/courses/4.jpg" alt="img"></a>
                     <figcaption class="mu-latest-course-imgcaption">
                       <a href="#">Course Plan 4</a>
                       <span><i class="fa fa-clock-o"></i>Rs.500/-</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
-                    <h4><a href="#">1 - 5th Class</a></h4>
-                    <p>Subjects : General English | 2 days in a Week(Mon, Tue, Wed, Thu) | Fees: Rs.1,000/- (Single Payment for 1 year; Including 500/- Stationary Charges) | No Admission Test | Class Timings 6:00pm - 8:00pm</p>
+                    <h4><a href="#">6 - 9th Class</a></h4>
+                    <p align="justify">Subjects : English Grammar | 4 days in a Week(Mon, Tue, Wed, Thu) | Fees: Rs.1,000/- (Single Payment for 1 year; Including 500/- Stationary Charges)</p>
                     </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-xs-12">
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
-                    <a href="#"><img src="assets/img/courses/1f5.jpg" alt="img"></a>
+                    <a href="#"><img src="assets/img/courses/5.jpg" alt="img"></a>
                     <figcaption class="mu-latest-course-imgcaption">
                       <a href="#">Coarse Plan 5</a>
-                      <span><i class="fa fa-clock-o"></i>Rs.200/-</span>
+                      <span><i class="fa fa-clock-o"></i>Rs.1000/-</span>
                     </figcaption>
                   </figure>
                   <div class="mu-latest-course-single-content">
                     <h4><a href="#">Sainik School Admission, Navodaya Entrance, NTSE, Olympiads</a></h4>
-                    <p>Subjects : Maths, English & Reasoning (Guidance Only) | Weekly 1 class, 4 classes in a month | Fees: Rs.200/- (Per Month) | Bring your own book / stationary | Class Timings 9:00pm - 10:00pm | Students with strong foundation have good chance.</p>
+                    <p align="justify">Subjects : Maths, English & Reasoning (Guidance Only) | Weekly 1 class | Guidance for highly motivated students.</p>
                     </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-xs-12">
                 <div class="mu-latest-course-single">
                   <figure class="mu-latest-course-img">
-                    <a href="#"><img src="assets/img/courses/1f5.jpg" alt="img"></a>
+                    <a href="#"><img src="assets/img/courses/6.jpg" alt="img"></a>
                     <figcaption class="mu-latest-course-imgcaption">
                       <a href="#">Coarse Plan 6</a>
                       <span><i class="fa fa-clock-o"></i>Rs.4,000/-</span>
@@ -278,7 +463,7 @@ improving her approach to a given situation is education.</p>
                   </figure>
                   <div class="mu-latest-course-single-content">
                     <h4><a href="#">Spoken English & Hindi Learning</a></h4>
-                    <p>Subjects : English / Hindi | 32 classes in 2 months | Fees: Rs.4,000/- (Per Course) | Class Timings 10:00am - 11:30am & 12:00 Noon - 1:30 pm</p>
+                    <p align="justify">Subjects : English / Hindi | 32 classes in 2 months | Fees: Rs.4,000/- (Per Course) | Class Timings 10:00am - 11:30am & 12:00 Noon - 1:30 pm</p>
                     </div>
                 </div>
               </div>
